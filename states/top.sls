@@ -1,0 +1,4 @@
+base:
+  '*':
+    - srv
+    - napalm

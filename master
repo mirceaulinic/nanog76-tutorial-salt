@@ -1,0 +1,8 @@
+pillar_roots:
+  base:
+    - /srv/salt/pillar
+
+file_roots:
+  base:
+    - /srv/salt
+    - /srv/salt/states

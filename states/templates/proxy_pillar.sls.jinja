@@ -1,0 +1,8 @@
+# {{ pillar.banner }}
+
+proxy:
+  proxytype: napalm
+  driver: {{ napalm_driver }}
+  host: {% raw %}{{ opts.id }}.nanog76-demo.digitalocean.cloud.tesuto.com{% endraw %}
+  username: {{ pillar.tesuto_username }}
+  password: {{ pillar.tesuto_password }}
